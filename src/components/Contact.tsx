@@ -26,7 +26,7 @@ const Contact = () => {
               <div className="space-y-4">
                 <p className="flex gap-3 items-center">
                   <strong>
-                    <span class="text-black">Хаяг:</span>
+                    <span className="text-black">Хаяг:</span>
                   </strong>
                   <span>
                     Улаанбаатар, Хан-Уул дүүрэг, 2-р хороо, Үйлдвэрийн гудамж 5
@@ -34,19 +34,19 @@ const Contact = () => {
                 </p>
                 <p className="flex gap-3 items-center">
                   <strong>
-                    <span class="text-black">Утас:</span>
+                    <span className="text-black">Утас:</span>
                   </strong>
                   <span>+976 9911-2233</span>
                 </p>
                 <p className="flex gap-3 items-center">
                   <strong>
-                    <span class="text-black">И-мэйл:</span>
+                    <span className="text-black">И-мэйл:</span>
                   </strong>
                   <span>info@legoblock.mn</span>
                 </p>
                 <p className="flex gap-3 items-center">
                   <strong>
-                    <span class="text-black">Ажлын цаг:</span>
+                    <span className="text-black">Ажлын цаг:</span>
                   </strong>
                   <span>Даваа-Баасан: 09:00-18:00</span>
                 </p>
