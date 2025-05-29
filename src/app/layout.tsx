@@ -26,8 +26,9 @@ export default function RootLayout({
     "Legoblock.mn - Дулааны алдагдалгүй, хурдан барилгын шийдэл";
   const pageDescription =
     "Legoblock.mn нь Монгол орны эрс тэс уур амьсгалд төгс тохирох, дулаан тусгаарлах өндөр үзүүлэлттэй, хямд өртгөөр хурдан угсрагдах полистрол (EPS) лего блок үйлдвэрлэдэг үндэсний үйлдвэр.";
-  const pageUrl = "https://www.legoblock.mn";
-  const pageImage = "/images/hero-building.svg";
+  const pageUrl = "https://construction-landing-sigma.vercel.app/";
+  const pageImage =
+    "https://construction-landing-sigma.vercel.app/images/hero-building.svg";
 
   return (
     <html lang="mn" className="scroll-smooth">
