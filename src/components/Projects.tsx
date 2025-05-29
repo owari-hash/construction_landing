@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Projects = () => {
   return (
@@ -14,9 +15,11 @@ const Projects = () => {
 
         <div className="grid gap-8 md:grid-cols-2">
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <img
+            <Image
               src="/images/project-family-house.svg"
               alt="Гэр бүлийн амины орон сууц"
+              width={600}
+              height={400}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
@@ -38,9 +41,11 @@ const Projects = () => {
           </div>
 
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <img
+            <Image
               src="/images/project-shopping-center.svg"
               alt="Худалдааны төв"
+              width={600}
+              height={400}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">

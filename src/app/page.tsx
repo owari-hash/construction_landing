@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Products from "@/components/Products";
 import Projects from "@/components/Projects";
 import About from "@/components/About";

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -32,10 +33,11 @@ const About = () => {
           </div>
 
           <div className="rounded-lg">
-            {" "}
-            <img
+            <Image
               src="/images/blog-lego-blocks.svg"
               alt="Бидний тухай"
+              width={600} // Add appropriate width
+              height={400} // Add appropriate height
               className="object-cover w-full h-64"
             />
           </div>

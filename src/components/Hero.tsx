@@ -3,6 +3,7 @@
 import React from "react";
 import { ANCHORS } from "@/routes/paths";
 import Container from "@/layouts/Container";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -51,14 +52,12 @@ const Hero = () => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-full max-w-md aspect-square bg-white rounded-2xl shadow-lg p-6 flex items-center justify-center">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-transparent rounded-2xl opacity-50"></div>
-              <img
+              <Image
                 src="/images/hero-building.svg"
                 alt="Legoblock Building"
+                width={500}
+                height={500}
                 className="relative z-10 w-full h-auto"
-                onError={(e) => {
-                  e.currentTarget.src = "/globe.svg";
-                  e.currentTarget.alt = "Legoblock";
-                }}
               />
             </div>
           </div>

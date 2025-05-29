@@ -16,7 +16,7 @@ type IntersectionObserverOptions = {
  */
 const useIntersectionObserver = <T extends Element>(
   options: IntersectionObserverOptions = {}
-): [RefObject<T>, boolean] => {
+): [RefObject<T | null>, boolean] => {
   const {
     threshold = 0.1,
     root = null,

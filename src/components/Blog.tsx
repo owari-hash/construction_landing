@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Blog = () => {
   return (
@@ -12,9 +13,11 @@ const Blog = () => {
 
         <div className="grid gap-8 md:grid-cols-3">
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <img
+            <Image
               src="/images/blog-energy-efficient.svg"
               alt="Эрчим хүчний хэмнэлттэй барилга"
+              width={600}
+              height={300}
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
@@ -38,9 +41,11 @@ const Blog = () => {
           </div>
 
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <img
+            <Image
               src="/images/blog-lego-blocks.svg"
               alt="Лего блокын давуу талууд"
+              width={600}
+              height={300}
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
@@ -64,9 +69,11 @@ const Blog = () => {
           </div>
 
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <img
+            <Image
               src="/images/blog-diy-guide.svg"
               alt="Өөрөө барилга барих зөвлөгөө"
+              width={600}
+              height={300}
               className="w-full h-48 object-cover"
             />
             <div className="p-6">
