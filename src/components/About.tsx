@@ -36,8 +36,8 @@ const About = () => {
             <Image
               src="/images/blog-lego-blocks.svg"
               alt="Бидний тухай"
-              width={600} // Add appropriate width
-              height={400} // Add appropriate height
+              width={600}
+              height={400}
               className="object-cover w-full h-64"
             />
           </div>
