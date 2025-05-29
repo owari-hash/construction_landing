@@ -19,43 +19,30 @@
   --radius: 0.5rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Override dark mode to keep white theme */
+    /* Keep the white theme even in dark mode */
     --background: #ffffff;
     --foreground: #171717;
-    --primary: #0070f3;
-    --primary-foreground: #ffffff;
-    --secondary: #f5f5f5;
-    --secondary-foreground: #171717;
-    --accent: #fafafa;
-    --accent-foreground: #171717;
-    --muted: #f5f5f5;
-    --muted-foreground: #737373;
-    --card: #ffffff;
-    --card-foreground: #171717;
-    --border: #e5e5e5;
-    --input: #e5e5e5;
-    --ring: #0070f3;
   }
 }
 
 body {
-  background: var(--background);
+  font-family: var(--font-sans);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
 }
 
-/* Improved responsive typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
 h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   line-height: 1.2;
@@ -89,6 +76,13 @@ html {
 
 /* Responsive container padding */
 .container {
-  padding-left: clamp(1rem, 5vw, 2rem);
-  padding-right: clamp(1rem, 5vw, 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }

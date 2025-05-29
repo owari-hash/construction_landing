@@ -43,7 +43,6 @@ const useIntersectionObserver = <T extends Element>(
         const isElementIntersecting = entry.isIntersecting;
         setIsIntersecting(isElementIntersecting);
 
-        // If element has intersected and we only want to trigger once, unobserve
         if (isElementIntersecting && triggerOnce && observerRef.current) {
           observerRef.current.unobserve(element);
         }

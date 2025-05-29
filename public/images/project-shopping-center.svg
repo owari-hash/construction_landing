@@ -1,0 +1,89 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="300" fill="#f5f7fa" />
+  
+  <!-- Ground -->
+  <rect x="0" y="250" width="600" height="50" fill="#e2e8f0" />
+  
+  <!-- Shopping Center Building -->
+  <!-- Main structure -->
+  <rect x="100" y="100" width="400" height="150" fill="#ffffff" stroke="#0070f3" stroke-width="3" />
+  
+  <!-- Roof -->
+  <rect x="90" y="90" width="420" height="20" fill="#0070f3" />
+  
+  <!-- Main entrance -->
+  <rect x="275" y="180" width="50" height="70" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  <rect x="275" y="180" width="50" height="10" fill="#0070f3" />
+  <line x1="300" y1="180" x2="300" y2="250" stroke="#0070f3" stroke-width="2" />
+  
+  <!-- Windows -->
+  <!-- Left section windows -->
+  <rect x="130" y="130" width="40" height="40" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  <rect x="180" y="130" width="40" height="40" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  <rect x="230" y="130" width="40" height="40" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  
+  <!-- Right section windows -->
+  <rect x="330" y="130" width="40" height="40" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  <rect x="380" y="130" width="40" height="40" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  <rect x="430" y="130" width="40" height="40" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  
+  <!-- Store signs -->
+  <rect x="130" y="180" width="90" height="20" fill="#f56565" />
+  <text x="175" y="195" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">STORE</text>
+  
+  <rect x="380" y="180" width="90" height="20" fill="#48bb78" />
+  <text x="425" y="195" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">MARKET</text>
+  
+  <!-- Parking lot -->
+  <rect x="100" y="260" width="400" height="30" fill="#4a5568" />
+  
+  <!-- Parking spaces -->
+  <line x1="120" y1="265" x2="120" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="150" y1="265" x2="150" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="180" y1="265" x2="180" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="210" y1="265" x2="210" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="240" y1="265" x2="240" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="270" y1="265" x2="270" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="300" y1="265" x2="300" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="330" y1="265" x2="330" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="360" y1="265" x2="360" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="390" y1="265" x2="390" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="420" y1="265" x2="420" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="450" y1="265" x2="450" y2="285" stroke="#ffffff" stroke-width="2" />
+  <line x1="480" y1="265" x2="480" y2="285" stroke="#ffffff" stroke-width="2" />
+  
+  <!-- Cars -->
+  <rect x="125" y="267" width="20" height="10" fill="#ed8936" rx="2" />
+  <rect x="215" y="267" width="20" height="10" fill="#4299e1" rx="2" />
+  <rect x="305" y="267" width="20" height="10" fill="#9f7aea" rx="2" />
+  <rect x="395" y="267" width="20" height="10" fill="#38b2ac" rx="2" />
+  <rect x="455" y="267" width="20" height="10" fill="#f56565" rx="2" />
+  
+  <!-- Shopping center sign -->
+  <rect x="250" y="60" width="100" height="30" rx="5" fill="#0070f3" />
+  <text x="300" y="80" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">MALL</text>
+  
+  <!-- People -->
+  <!-- Person 1 -->
+  <circle cx="260" cy="230" r="5" fill="#4a5568" />
+  <line x1="260" y1="235" x2="260" y2="245" stroke="#4a5568" stroke-width="2" />
+  <line x1="260" y1="238" x2="255" y2="245" stroke="#4a5568" stroke-width="2" />
+  <line x1="260" y1="238" x2="265" y2="245" stroke="#4a5568" stroke-width="2" />
+  
+  <!-- Person 2 -->
+  <circle cx="340" cy="230" r="5" fill="#4a5568" />
+  <line x1="340" y1="235" x2="340" y2="245" stroke="#4a5568" stroke-width="2" />
+  <line x1="340" y1="238" x2="335" y2="245" stroke="#4a5568" stroke-width="2" />
+  <line x1="340" y1="238" x2="345" y2="245" stroke="#4a5568" stroke-width="2" />
+  
+  <!-- Construction speed indicator -->
+  <circle cx="50" cy="50" r="25" fill="#ffffff" stroke="#0070f3" stroke-width="2" />
+  <text x="50" y="45" font-family="Arial" font-size="12" fill="#0070f3" text-anchor="middle">2x</text>
+  <text x="50" y="60" font-family="Arial" font-size="10" fill="#0070f3" text-anchor="middle">FASTER</text>
+  
+  <!-- Cost efficiency indicator -->
+  <circle cx="50" cy="110" r="25" fill="#ffffff" stroke="#0070f3" stroke-width="2" />
+  <text x="50" y="105" font-family="Arial" font-size="12" fill="#0070f3" text-anchor="middle">40%</text>
+  <text x="50" y="120" font-family="Arial" font-size="10" fill="#0070f3" text-anchor="middle">CHEAPER</text>
+</svg>

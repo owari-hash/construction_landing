@@ -3,7 +3,7 @@ import React from "react";
 const Blog = () => {
   return (
     <section id="blog" className="py-16">
-      <div className="max-w-4xl mx-auto px-8 sm:px-20">
+      <div className="max-w-6xl mx-auto px-8 sm:px-20">
         <h2 className="text-3xl sm:text-4xl font-bold mb-8">Блог</h2>
 
         <div className="text-lg mb-8 text-gray-700 dark:text-gray-300">
@@ -12,7 +12,11 @@ const Blog = () => {
 
         <div className="grid gap-8 md:grid-cols-3">
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <div className="h-48 bg-gray-200 dark:bg-gray-700"></div>
+            <img
+              src="/images/blog-energy-efficient.svg"
+              alt="Эрчим хүчний хэмнэлттэй барилга"
+              className="w-full h-48 object-cover"
+            />
             <div className="p-6">
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 2023-12-15
@@ -34,7 +38,11 @@ const Blog = () => {
           </div>
 
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <div className="h-48 bg-gray-200 dark:bg-gray-700"></div>
+            <img
+              src="/images/blog-lego-blocks.svg"
+              alt="Лего блокын давуу талууд"
+              className="w-full h-48 object-cover"
+            />
             <div className="p-6">
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 2023-11-20
@@ -56,7 +64,11 @@ const Blog = () => {
           </div>
 
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <div className="h-48 bg-gray-200 dark:bg-gray-700"></div>
+            <img
+              src="/images/blog-diy-guide.svg"
+              alt="Өөрөө барилга барих зөвлөгөө"
+              className="w-full h-48 object-cover"
+            />
             <div className="p-6">
               <span className="text-sm text-gray-500 dark:text-gray-400">
                 2023-10-05

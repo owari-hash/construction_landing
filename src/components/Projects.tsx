@@ -3,10 +3,10 @@ import React from "react";
 const Projects = () => {
   return (
     <section id="projects" className="py-16">
-      <div className="max-w-4xl mx-auto px-8 sm:px-20">
+      <div className="max-w-6xl mx-auto px-8 sm:px-20">
         <h2 className="text-3xl sm:text-4xl font-bold mb-8">Төслүүд</h2>
 
-        <div className="text-lg mb-8 text-gray-700 dark:text-gray-300">
+        <div className="text-lg mb-8 text-gray-700 dark:text-black">
           Манай лего блок технологийг ашиглан баригдсан амжилттай төслүүдийг
           танилцуулж байна. Эдгээр төслүүд нь манай бүтээгдэхүүний чанар,
           найдвартай байдал, үр ашгийг харуулж байна.
@@ -14,7 +14,11 @@ const Projects = () => {
 
         <div className="grid gap-8 md:grid-cols-2">
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <div className="h-64 bg-gray-200 dark:bg-gray-700"></div>
+            <img
+              src="/images/project-family-house.svg"
+              alt="Гэр бүлийн амины орон сууц"
+              className="w-full h-64 object-cover"
+            />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">
                 Гэр бүлийн амины орон сууц
@@ -34,7 +38,11 @@ const Projects = () => {
           </div>
 
           <div className="border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-            <div className="h-64 bg-gray-200 dark:bg-gray-700"></div>
+            <img
+              src="/images/project-shopping-center.svg"
+              alt="Худалдааны төв"
+              className="w-full h-64 object-cover"
+            />
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Худалдааны төв</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-4">

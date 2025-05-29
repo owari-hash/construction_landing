@@ -1,0 +1,74 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="300" fill="#f5f7fa" />
+  
+  <!-- Ground -->
+  <rect x="0" y="250" width="600" height="50" fill="#e2e8f0" />
+  
+  <!-- House Structure -->
+  <!-- Main house -->
+  <rect x="150" y="100" width="300" height="150" fill="#ffffff" stroke="#0070f3" stroke-width="3" />
+  
+  <!-- Roof -->
+  <polygon points="150,100 300,30 450,100" fill="#0070f3" />
+  
+  <!-- Door -->
+  <rect x="275" y="200" width="50" height="100" fill="#805ad5" />
+  <circle cx="315" cy="250" r="5" fill="#ffd700" />
+  
+  <!-- Windows -->
+  <rect x="180" y="130" width="60" height="60" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  <line x1="210" y1="130" x2="210" y2="190" stroke="#0070f3" stroke-width="2" />
+  <line x1="180" y1="160" x2="240" y2="160" stroke="#0070f3" stroke-width="2" />
+  
+  <rect x="360" y="130" width="60" height="60" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  <line x1="390" y1="130" x2="390" y2="190" stroke="#0070f3" stroke-width="2" />
+  <line x1="360" y1="160" x2="420" y2="160" stroke="#0070f3" stroke-width="2" />
+  
+  <!-- Second floor window -->
+  <rect x="275" y="130" width="50" height="40" fill="#e6f0fd" stroke="#0070f3" stroke-width="2" />
+  <line x1="300" y1="130" x2="300" y2="170" stroke="#0070f3" stroke-width="2" />
+  
+  <!-- Chimney -->
+  <rect x="380" y="50" width="20" height="30" fill="#718096" />
+  <rect x="375" y="40" width="30" height="10" fill="#4a5568" />
+  
+  <!-- Smoke -->
+  <path d="M385,35 C380,25 390,25 385,15 C380,5 395,5 390,0" stroke="#a0aec0" stroke-width="2" fill="none" />
+  
+  <!-- Garden -->
+  <!-- Grass patches -->
+  <circle cx="100" cy="260" r="15" fill="#48bb78" />
+  <circle cx="80" cy="270" r="10" fill="#48bb78" />
+  <circle cx="120" cy="270" r="12" fill="#48bb78" />
+  
+  <circle cx="500" cy="260" r="15" fill="#48bb78" />
+  <circle cx="480" cy="270" r="10" fill="#48bb78" />
+  <circle cx="520" cy="270" r="12" fill="#48bb78" />
+  
+  <!-- Tree -->
+  <rect x="70" y="200" width="10" height="50" fill="#8b4513" />
+  <circle cx="75" cy="180" r="25" fill="#48bb78" />
+  
+  <rect x="520" y="200" width="10" height="50" fill="#8b4513" />
+  <circle cx="525" cy="180" r="25" fill="#48bb78" />
+  
+  <!-- Sun -->
+  <circle cx="50" cy="50" r="30" fill="#ffdd00" />
+  <line x1="50" y1="10" x2="50" y2="0" stroke="#ffdd00" stroke-width="3" />
+  <line x1="50" y1="90" x2="50" y2="100" stroke="#ffdd00" stroke-width="3" />
+  <line x1="10" y1="50" x2="0" y2="50" stroke="#ffdd00" stroke-width="3" />
+  <line x1="90" y1="50" x2="100" y2="50" stroke="#ffdd00" stroke-width="3" />
+  <line x1="22" y1="22" x2="15" y2="15" stroke="#ffdd00" stroke-width="3" />
+  <line x1="78" y1="78" x2="85" y2="85" stroke="#ffdd00" stroke-width="3" />
+  <line x1="22" y1="78" x2="15" y2="85" stroke="#ffdd00" stroke-width="3" />
+  <line x1="78" y1="22" x2="85" y2="15" stroke="#ffdd00" stroke-width="3" />
+  
+  <!-- Energy efficiency label -->
+  <rect x="30" y="120" width="40" height="60" rx="5" fill="#ffffff" stroke="#0070f3" stroke-width="2" />
+  <rect x="35" y="125" width="30" height="10" fill="#48bb78" />
+  <rect x="35" y="140" width="20" height="10" fill="#68d391" />
+  <rect x="35" y="155" width="25" height="10" fill="#4299e1" />
+  <rect x="35" y="170" width="15" height="5" fill="#a0aec0" />
+  <text x="50" y="133" font-family="Arial" font-size="10" fill="#ffffff" text-anchor="middle">A+</text>
+</svg>

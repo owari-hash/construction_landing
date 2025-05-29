@@ -1,6 +1,8 @@
+"use client";
+
 import { useState } from "react";
 import Link from "next/link";
-import { ROUTES, ANCHORS } from "@/routes/paths";
+import { ROUTES } from "@/routes/paths";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,15 +12,15 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-sm z-50 py-4 shadow-sm">
-      <div className="container mx-auto px-4 flex justify-between items-center">
+    <header className="fixed top-0 left-0 z-50 py-4 w-full shadow-sm backdrop-blur-sm bg-white/90">
+      <div className="container flex justify-between items-center px-4 mx-auto">
         <Link href={ROUTES.HOME} className="text-2xl font-bold text-primary">
           Legoblock.mn
         </Link>
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden flex items-center p-2"
+          className="flex items-center p-2 md:hidden"
           onClick={toggleMenu}
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         >
@@ -53,7 +55,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.PRODUCTS}
-                className="hover:text-primary transition-colors font-medium"
+                className="font-medium transition-colors hover:text-primary"
               >
                 Бүтээгдэхүүн
               </Link>
@@ -61,7 +63,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.PROJECTS}
-                className="hover:text-primary transition-colors font-medium"
+                className="font-medium transition-colors hover:text-primary"
               >
                 Төслүүд
               </Link>
@@ -69,7 +71,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.ABOUT}
-                className="hover:text-primary transition-colors font-medium"
+                className="font-medium transition-colors hover:text-primary"
               >
                 Бидний тухай
               </Link>
@@ -77,7 +79,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.BLOG}
-                className="hover:text-primary transition-colors font-medium"
+                className="font-medium transition-colors hover:text-primary"
               >
                 Блог
               </Link>
@@ -85,7 +87,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.CONTACT}
-                className="hover:text-primary transition-colors font-medium"
+                className="font-medium transition-colors hover:text-primary"
               >
                 Холбоо барих
               </Link>
@@ -96,12 +98,12 @@ const Header = () => {
 
       {/* Mobile navigation */}
       {isMenuOpen && (
-        <nav className="md:hidden bg-white py-4 px-4 shadow-md">
+        <nav className="px-4 py-4 bg-white shadow-md md:hidden">
           <ul className="flex flex-col space-y-4">
             <li>
               <Link
                 href={ROUTES.PRODUCTS}
-                className="block py-2 hover:text-primary transition-colors font-medium"
+                className="block py-2 font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Бүтээгдэхүүн
@@ -110,7 +112,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.PROJECTS}
-                className="block py-2 hover:text-primary transition-colors font-medium"
+                className="block py-2 font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Төслүүд
@@ -119,7 +121,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.ABOUT}
-                className="block py-2 hover:text-primary transition-colors font-medium"
+                className="block py-2 font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Бидний тухай
@@ -128,7 +130,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.BLOG}
-                className="block py-2 hover:text-primary transition-colors font-medium"
+                className="block py-2 font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Блог
@@ -137,7 +139,7 @@ const Header = () => {
             <li>
               <Link
                 href={ROUTES.CONTACT}
-                className="block py-2 hover:text-primary transition-colors font-medium"
+                className="block py-2 font-medium transition-colors hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Холбоо барих

@@ -1,12 +1,20 @@
+"use client";
+
 import React from "react";
+import SendIcon from "@mui/icons-material/Send";
+import dynamic from "next/dynamic";
+
+const Button = dynamic(() => import("@mui/material/Button"), { ssr: false });
 
 const Contact = () => {
   return (
     <section id="contact" className="py-16 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-4xl mx-auto px-8 sm:px-20">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-8">Холбоо барих</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-white">
+          Холбоо барих
+        </h2>
 
-        <div className="grid gap-12 md:grid-cols-2">
+        <div className="grid gap-12 md:grid-cols-2 text-white">
           <div>
             <div className="text-lg space-y-6 text-gray-700 dark:text-gray-300">
               <p>
@@ -85,12 +93,9 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <button
-                type="submit"
-                className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-lg h-12 px-8"
-              >
+              <Button variant="contained" endIcon={<SendIcon />}>
                 Илгээх
-              </button>
+              </Button>
             </form>
           </div>
         </div>

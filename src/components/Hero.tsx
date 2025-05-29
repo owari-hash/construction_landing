@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { ANCHORS } from "@/routes/paths";
 import Container from "@/layouts/Container";
